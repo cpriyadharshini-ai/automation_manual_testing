@@ -24,4 +24,4 @@ Python problem: Write the python code within 15 minutes.
 Test metrics & analyze the tests.
 
 ### Report file:
-[View the report](Test_metrics&analysis.docx)
+[Test metrics & analysis report](https://docs.google.com/document/d/11gha-INiyD4YNrL9R0o3qP_LPUQKCtIP/edit?usp=sharing&ouid=116894059733861405479&rtpof=true&sd=true))
