@@ -25,3 +25,9 @@ Test metrics & analyze the tests.
 
 ### Report file:
 [Test metrics & analysis report](https://docs.google.com/spreadsheets/d/1JtfcjQH9tnJ2aiikcJcehL1i27EZg3J2KPaOjPG2OOw/edit?gid=1008736792#gid=1008736792)
+
+## Task-5 (25/09/2026):
+Python problem: Write the python code to 10 real world problems.
+
+### Python file:
+[View the python file](python_practice_problem.py)
