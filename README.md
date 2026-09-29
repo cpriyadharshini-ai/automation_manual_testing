@@ -31,3 +31,10 @@ Python problem: Write the python code to 10 real world problems.
 
 ### Python file:
 [View the python file](python_practice_problem.py)
+
+## Task-6 (25\9/09/2026):
+Python assignment: Solve python and numpy problems.
+
+### Python file:
+[View the python file](python_assignments.py)
+[View the python file](funtion_assignment.py)
