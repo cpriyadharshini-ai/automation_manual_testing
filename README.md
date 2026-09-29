@@ -36,5 +36,5 @@ Python problem: Write the python code to 10 real world problems.
 Python assignment: Solve python and numpy problems.
 
 ### Python file:
-[View the python file](python_assignments.py)
+[View the python file](python_assignments.py)<br>
 [View the python file](funtion_assignment.py)
