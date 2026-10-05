@@ -43,4 +43,100 @@ Python assignment: Solve python and numpy problems.
 Write the selenium code to login the flipkart login page using python.
 
 ### Python file:
-[View flipkart login page code](Selenium_webdriver_code.docx)
+[View the selenium Webdriver code](Selenium_webdriver_code.docx)
+
+## Python code
+```
+SELENIUM WEBDRIVER
+CHANDRAPRIYADHARSHINI C
+212223240019
+```
+1.	Automating Google search using Selenium WebDriver with Python code.
+```
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+
+driver=webdriver.Chrome()
+driver.get("https://www.google.com/")
+
+search=driver.find_element(By.ID, "ti6dpd")
+search.send_keys("actor surya")
+print(search.is_enabled())
+search.send_keys(Keys.ENTER)
+
+input("Enter to close the browser...")
+
+driver.quit()
+```
+2.	Automating search for all products by using .find_elements() keyword.
+```
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+
+driver=webdriver.Chrome()
+driver.get("https://sweetshop.netlify.app/")
+
+products_name=driver.find_elements(By.CLASS_NAME, "card-title")
+price_name=driver.find_elements(By.CLASS_NAME, "text-muted")
+
+print("Product details")
+for product,price in zip(products_name,price_name):
+    print(f"{product.text} -> {price.text}")
+
+'''
+USING ARRAY
+for i in range(len(products_name)):
+    print(f"{products_name[i].text} -> {price[i].text}")
+'''
+'''
+print("Product name")
+for product in products_name:
+    print(product.text)
+print("Price details name")
+for price in price_name:
+    print(price.text)
+'''
+input("Enter to close the browser...")
+
+driver.quit()	
+```
+3.	Automating login and verifying the OTP on the Flipkart website.
+```
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+driver = webdriver.Chrome()
+
+driver.get("https://www.flipkart.com/")
+
+wait=WebDriverWait(driver, 10)
+
+number_input=wait.until(EC.presence_of_element_located((By.ID, "1")))
+
+number_input.send_keys("9363340535")
+
+button=wait.until(EC.element_to_be_clickable((By.XPATH, "//button[text()='Continue']")))
+button.click()
+
+otp=input("Enter OTP: ")
+
+otp_input=wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, "S1KmoO")))
+
+for i in range(6):
+    otp_input[i].send_keys(otp[i])
+
+verify_otp=wait.until(EC.element_to_be_clickable((By.XPATH, "//button[text()='Verify']")))
+
+verify_otp.click()
+
+print("Login Successfully")
+
+input("Press Enter to close...")
+driver.quit()
+```
+# Result
+This readme contains only Automation Testing practice exersices.
