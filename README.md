@@ -138,5 +138,12 @@ print("Login Successfully")
 input("Press Enter to close...")
 driver.quit()
 ```
+
+# Task-8 (06/10/2026)
+Write the selenium code to fill out the registration form using python.
+
+### Python file:
+[View the selenium registration form code](registration_form.py)
+
 # Result
 This readme contains only Automation Testing practice exersices.
