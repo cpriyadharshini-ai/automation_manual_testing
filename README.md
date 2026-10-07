@@ -143,13 +143,19 @@ driver.quit()
 Write the selenium code to fill out the registration form using python.
 
 ### Python file:
-[View the selenium registration form code](registration_form.py)
+[View the selenium code registration form](registration_form.py)
 
 # Task-9
 Write the selenium code to order process in amazon application using python.
 
 ### Python file:
-[View the selenium order process code](amazon_page.py)
+[View the selenium code to order process](amazon_page.py)
+
+# Task-10
+Write the selenium code to alert boxes using python.
+
+### Python file:
+[View the selenium alert methods](alert_method.py)
 
 # Result
 This readme contains only Automation Testing practice exersices.
