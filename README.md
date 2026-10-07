@@ -149,7 +149,7 @@ Write the selenium code to fill out the registration form using python.
 Write the selenium code to order process in amazon application using python.
 
 ### Python file:
-[View the selenium order process code](registration_form.py)
+[View the selenium order process code](amazon_page.py)
 
 # Result
 This readme contains only Automation Testing practice exersices.
