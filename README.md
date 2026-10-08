@@ -151,11 +151,17 @@ Write the selenium code to order process in amazon application using python.
 ### Python file:
 [View the selenium code to order process](amazon_page.py)
 
-# Task-10
+# Task-10 (07/10/2026)
 Write the selenium code to alert boxes using python.
 
 ### Python file:
 [View the selenium alert methods](alert_method.py)
+
+# Task-11 (08/10/2026)
+Write the selenium code various types of xpath using python.
+
+### Python file:
+[View the selenium various types of xpath](xpath_methods.py)
 
 # Result
 This readme contains only Automation Testing practice exersices.
