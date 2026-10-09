@@ -163,5 +163,11 @@ Write the selenium code various types of xpath using python.
 ### Python file:
 [View the selenium various types of xpath](xpath_methods.py)
 
+# Task-12 (09/10/2026)
+Write the selenium code to the web tables using python.
+
+### Python file:
+[View the selenium code of web tables](table_method.py)
+
 # Result
 This readme contains only Automation Testing practice exersices.
